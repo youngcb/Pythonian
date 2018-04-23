@@ -1,0 +1,31 @@
+# Creating a sheet to show Python Understanding
+
+# This creates a string literal
+words = "these are words"
+
+number = 100 #this is a variable
+a = b = c = 1 #this is a multi-variable
+c /= a #operand example, simply divides 1 by 1 and assigns the answer to c
+str = 'This is a string' #creates a string
+counter = 1				#lines 10-13 is an example of a control structure, printing Hello, World 5 times
+while counter <= 5:
+    print("Hello, world")
+    counter = counter + 1
+
+
+def can():		#callback example, refers to the "can" defined earlier
+	return "can can"
+can_callback = can
+
+
+double = lambda x: x * 2		#showing a lambda function in use
+print(double(3))		#returns 6
+
+
+class Students:            #simple example of a class
+   'Common base class for all students'
+   stuCount = 0
+
+   def __init__(self, name, grade):
+      self.name = name
+      self.grade = grade  
